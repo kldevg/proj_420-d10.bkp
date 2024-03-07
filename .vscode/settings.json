@@ -1,0 +1,16 @@
+{
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file",
+    "flake8.args": [
+        "--max-line-length=120"
+    ],
+    "files.watcherExclude": {
+        "**/.venv**/**": true,
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/target": true
+    }
+}
